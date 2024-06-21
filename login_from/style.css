@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-login {
+    height: 100%;
+    width: 100%;
+    background-image: url("https://img.freepik.com/free-vector/abstract-colorful-soft-watercolor-texture-background_1035-18958.jpg?t=st=1718990109~exp=1718993709~hmac=530f2947187027729a4894b6e4572305b23278eb458cc0d17ce2e47c8cb6cf66&w=900");
+    height: 100vh; 
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-box {
+    width: 380px;
+    height: 580px;
+    margin: 6vh auto;
+    background: #fff;
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; /* Add this line to stack children vertically */
+    align-items: center; /* Add this line to center children horizontally */
+    padding: 20px; /* Add some padding for inner spacing */
+}
+
+.login-text {
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px; /* Add some space below the login text */
+}
+
+.input-area {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh;
+    
+
+}
+
+.input-a{
+    width: 40vh;
+    height: 5vh;
+    transition: 0.5s;
+    border-radius: 15px;
+    text-align: left;
+    padding: 5px 0;
+    margin: 8px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    outline: transparent;
+    
+}
+
+.login-btn{
+    border-radius: 10px;
+    width: 42vh;
+    height: 5vh;
+    text-align: center;
+    padding: 5px 0;
+    margin: 10% auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.Social-btn{
+    margin: 25%;
+    text-align: center;
+}
+
+.Social-btn img{
+    width: 35px;
+    padding: 10px;
+    box-shadow: #ff105f;
+    cursor: pointer;
+}
